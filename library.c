@@ -35,11 +35,6 @@
 #define RANGE 0
 #define TOPHAT 1
 
-#define LINE_FOLLOW_DEFAULT -1
-// -1 for left, 1 for right
-#define LINE_FOLLOW_BIG_TURN 100
-#define LINE_FOLLOW_SMALL_TURN -100
-
 // move forward with percentile p
 void go(int p) {
 	motor(BL,p);
